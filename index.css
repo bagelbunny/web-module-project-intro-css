@@ -86,3 +86,112 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+body {
+  line-height: 1;
+}
+
+.orange:hover {
+  background-color: greenyellow;
+  color: #fff;
+}
+.orange {
+  color: #ff764e;
+  background-color: #ff764e;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 12px;
+}
+.blue {
+  color: #5ed3eb;
+  background-color: #5ed3eb;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 12px;
+}
+.yellow {
+  color: #ffcd69;
+  background-color: #ffcd69;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 12px;
+}
+
+.navbar {
+  font-display: flex;
+  justify-content: center;
+  word-spacing: 7em;
+  text-align: center;
+  padding-top: 30px;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.5rem;
+  padding: 6%;
+}
+
+.head {
+  margin: 170px;
+  padding-bottom: 8em;
+}
+.circle {
+  border-radius: 50%;
+  padding: 0%;
+  margin: auto;
+  position: relative;
+  width: 50%;
+}
+
+#topbar {
+  margin-bottom: px;
+  float: left;
+  width: 50%;
+}
+#sidebar {
+  float: right;
+  width: 50%;
+}
+.text {
+  margin: 10px;
+  padding: 50px;
+  justify-content: center;
+  background-color: #ddb9a3;
+}
+.fire_text,
+.rv_text {
+  text-align: center;
+  font-size: 20px;
+}
+.rv_text span {
+  font-weight: bold;
+}
+.rv_fire {
+  position: relative;
+  width: 50%;
+  height: 10em;
+  margin: 1%;
+}
+.camping {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
+.campingLogo {
+  position: relative;
+  width: 50%;
+  height: 10em;
+  margin: 1%;
+}
+.footer {
+  font-display: flex;
+  justify-content: center;
+  word-spacing: 7em;
+  text-align: center;
+  padding: 50px;
+}
+.foot_img {
+  width: 100%;
+  height: 300px;
+}
